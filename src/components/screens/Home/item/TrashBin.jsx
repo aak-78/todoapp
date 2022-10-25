@@ -1,11 +1,10 @@
 import React from 'react'
-import { IoTrashBin } from 'react-icons/io5'
+import { BsTrash } from 'react-icons/bs'
 
 const TrashBin = () => {
     return (
-        <div>
-            <IoTrashBin className='text-gray-700 ml-4' size={18}/>
-        </div>
+            <BsTrash className='text-gray-700 ml-4 hover:text-red-700 transition-colors ease-in duration-150'
+                size={18} />
     )
 }
 
